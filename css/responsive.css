@@ -47,8 +47,7 @@
   }
 
   .characters__content {
-    top: -30%;
-    
+    margin-top: 20px;
   }
 
   .characters__content .characters__logo {
@@ -61,7 +60,7 @@
   }
 
   .buttons {
-    padding-bottom: 200px;
+    padding-bottom: 50px;
   }
 
   .buttons .buttons__button .buttons__image {
