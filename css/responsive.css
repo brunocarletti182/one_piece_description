@@ -14,14 +14,17 @@
     top: -20%;
     max-width: 100vh;
     padding: 30px;
+    
   }
 
   .characters__content .characters__name {
     font-size: 36px;
+    
   }
 
   .characters__content .characters_description {
     max-width: 500px;
+    
   }
 
   .buttons {
@@ -45,6 +48,7 @@
 
   .characters__content {
     top: -30%;
+    
   }
 
   .characters__content .characters__logo {
