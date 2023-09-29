@@ -42,7 +42,7 @@
   justify-content: center;
   min-height: 100vh;
   max-width: 380px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .characters__content .characters__name {
