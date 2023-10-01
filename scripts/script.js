@@ -3,20 +3,20 @@ const chars = document.querySelectorAll(".char");
 
 buttons.forEach((button, indice) => {
 	button.addEventListener("click", () => {
-		desselecionarBotao();
-		desselecionarPersonagem();
+		unselectButton();
+		unselectChar();
 
 		button.classList.add("selected");
 		chars[indice].classList.add("selected");
 	});
 });
 
-function desselecionarPersonagem() {
+function unselectChar() {
 	const personagemSelecionado = document.querySelector(".char.selected");
 	personagemSelecionado.classList.remove("selected");
 }
 
-function desselecionarBotao() {
+function unselectButton() {
 	const botaoSelecionado = document.querySelector(".button.selected");
 	botaoSelecionado.classList.remove("selected");
 }
